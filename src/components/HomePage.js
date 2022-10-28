@@ -12,7 +12,9 @@ function HomePage() {
       <div className='profile'>
         <img src={profile} alt='profile' id='profile__img' />
         <p id='twitter'>dreicode</p>
-        <p className='slack__name' id='slack'>dreiOX</p>
+        <p className='slack__name' id='slack'>
+          dreiOX
+        </p>
       </div>
 
       <main>
@@ -26,7 +28,7 @@ function HomePage() {
           <button className='button'>Zuri Books</button>
         </a>
         <a
-          href='https://books.zuri.team/python-for-beginners?ref_id=<yourslackname>'
+          href='https://books.zuri.team/python-for-beginners?ref_id=dreiOX'
           id='book__python'
         >
           <button className='button'>Python Books</button>
