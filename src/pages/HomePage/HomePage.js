@@ -1,10 +1,8 @@
 import React from 'react';
-import profile from '../components/profile.png';
-import zuri from '../components/zuri.png';
-import I4G from '../components/I4G.png';
-import { BsGithub, BsSlack } from 'react-icons/bs';
-
 import './HomePage.css';
+import { BsGithub, BsSlack } from 'react-icons/bs';
+import { profile } from '../../assets/images';
+import Footer from '../../components/Footer';
 
 function HomePage() {
   return (
@@ -39,6 +37,9 @@ function HomePage() {
         <a href='https://books.zuri.team/design-rules' id='book__design'>
           <button className='button'>Design Books</button>
         </a>
+        <a href='/contact' id='contact'>
+          <button className='button'>Contact</button>
+        </a>
       </main>
 
       <div className='icon__buttons'>
@@ -46,11 +47,9 @@ function HomePage() {
         <BsGithub />
       </div>
 
-      <footer className='footer'>
-        <img src={zuri} alt='zuri' />
-        <p>HNG Internship 9 Frontend Task</p>
-        <img src={I4G} alt='ingressive for good' />
-      </footer>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }

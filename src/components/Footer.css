@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #a5a7ab;
+}
+.footer p {
+  color: #a5a7ab;
+  font-size: 12px;
+  padding-top: 12px;
+}
+.footer img {
+  height: 20px;
+  padding-top: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .footer {
+    flex-direction: column;
+    gap: 2px;
+    justify-content: flex-start;
+  }
+  .footer p {
+    padding: 0;
+  }
+  .footer img {
+    height: 20px;
+    width: 80px;
+  }
+}

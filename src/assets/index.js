@@ -1,2 +1,4 @@
 import * as DMicons from './icons';
-export { DMicons };
+import * as DMimages from './images';
+
+export { DMicons, DMimages };
