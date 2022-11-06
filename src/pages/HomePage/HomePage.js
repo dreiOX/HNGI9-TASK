@@ -38,11 +38,10 @@ function HomePage() {
         <a href='https://books.zuri.team/design-rules' id='book__design'>
           <button className='button'>Design Books</button>
         </a>
-        <button className='button'>
-          <Link to='/contact' className='contact__button' id='contact'>
-            Contact
-          </Link>
-        </button>
+
+        <Link to='/contact'  id='contact'>
+          <button className='button'>Contact</button>
+        </Link>
       </main>
 
       <div className='icon__buttons'>
