@@ -3,6 +3,7 @@ import './HomePage.css';
 import { BsGithub, BsSlack } from 'react-icons/bs';
 import { profile } from '../../assets/images';
 import Footer from '../../components/Footer';
+import { Link } from 'react-router-dom';
 
 function HomePage() {
   return (
@@ -37,9 +38,9 @@ function HomePage() {
         <a href='https://books.zuri.team/design-rules' id='book__design'>
           <button className='button'>Design Books</button>
         </a>
-        <a href='/contact' className='contact__button'>
+        <Link to='/contact' className='contact__button'>
           Contact
-        </a>
+        </Link>
       </main>
 
       <div className='icon__buttons'>
